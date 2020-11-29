@@ -7,4 +7,4 @@ Users will be also able to save book and render later if needed.
 
 ## Links
 
-[Link to Deployed App](https://prabin-googlebooksearch.herokuapp.com//)
+[Link to Deployed App](https://prabin-googlebooksearch.herokuapp.com/)
