@@ -1,6 +1,6 @@
-.jumbotron {
-    background-image: url(book.jpg);
-}
 h1{
-    margin: auto;
+    padding-left: 700px;
+}
+.navbar-brand{
+    align-items: center;
 }

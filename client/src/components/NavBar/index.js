@@ -11,18 +11,18 @@ function Navbar() {
             <div className="container">
                 <Link className="navbar-brand" to="/">Google Books Search</Link>
                 <ul className="navbar-nav">
-                    <li className="nav-item">
+                    <ol className="nav-item">
                         <Link
                             to="/search"
                             className={window.location.pathname === "/search" ? "nav-link active" : "nav-link"}
-                        > Search Books</Link>
-                    </li>
-                    <li className="nav-item">
+                        > Click to Search Books</Link>
+                    </ol>
+                    <ol className="nav-item">
                         <Link
                             to="/saved"
                             className={window.location.pathname === "/saved" ? "nav-link active" : "nav-link"}
-                        >Saved Books</Link>
-                    </li>
+                        >View Saved Books</Link>
+                    </ol>
                 </ul>
             </div>
         </nav>
